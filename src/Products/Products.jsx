@@ -1,10 +1,12 @@
 import "./Products.css"
 
 
-const Products = () => {
+const Products = ({ result }) => {
   return (
-    <div>Products</div>
-  )
-}
+    <>
+      <section className="card-container">{result}</section>
+    </>
+  );
+};
 
-export default Products
+export default Products;
